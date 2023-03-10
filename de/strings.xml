@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string name="android_application_name">Skill</string>
+
+    <string name="android_facebook_app_id">1916407391709530</string>
+    <string name="android_facebook_client_token">a79ddb639313cb0830d1d953ad33bf1e</string>
+    <string name="android_facebook_app_loginProtocolScheme">fb1916407391709530</string>
+
+    <string name="syncInProgressScreen_syncInProgress_text_winter">SKILL IS PREPARING SNOW</string>
+    <string name="syncInProgressScreen_syncInProgress_text_summer">DISPERSING THE CLOUDS</string>
+
+    <string name="appDataMigrationScreen_appDataMigrationInProgress_title">PLEASE WAIT A MOMENT</string>
+    <string name="appDataMigrationScreen_appDataMigrationInProgress_text">Migrating data to the new app version...</string>
+
+    <string name="skillMapView_yourLocationIsNotDefinedError_text">Your location is not detected yet</string>
+
+    <string name="mapScreen_formattedAltitude_text">Altitude: %s</string>
+    <string name="mapScreen_formattedSpeed_text">Speed: %s</string>
+    <string name="mapScreen_formattedAccuracy_text">Accuracy: %s</string>
+    <string name="mapScreen_appVersion_text">Version: %1$s (%2$s), Env: %3$s.</string>
+    <string name="mapScreen_formattedActivityType_text">AT: %1$s, is poor: %2$s</string>
+    <string name="mapScreen_suspiciousLocation_text">Suspicious location: %1$s</string>
+    <string name="mapScreen_isPisteSelectionEnabled_text">is piste selection enabled</string>
+
+    <string name="pisteInfoBottomPanel_emptyStatisticsPlaceholder_text">--</string>
+    <string name="pisteInfoBottomPanel_pisteHint_text">PISTE</string>
+    <string name="pisteInfoBottomPanel_distance_text">Distance</string>
+    <string name="pisteInfoBottomPanel_altitudeDifference_text">Altitude diff.</string>
+    <string name="pisteInfoBottomPanel_rating_text">Rating by piste</string>
+    <string name="pisteInfoBottomPanel_participantCount_text">%s riders</string>
+    <string name="pisteInfoBottomPanel_noParticipants_text">no riders</string>
+    <string name="pisteInfoBottomPanel_bestResult_text">Best result</string>
+    <string name="pisteInfoBottomPanel_noTracks_text">no tracks</string>
+
+    <string name="inviteFriendsPromoPopup_title">Skill is best with friends</string>
+    <string name="inviteFriendsPromoPopup_subtitle_text">Hit the slopes together!</string>
+    <string name="inviteFriendsPromoPopup_subtitleMountainBike_text">Hit the trails together!</string>
+    <string name="inviteFriendsPromoPopup_inviteFriends_button">Invite friends</string>
+    <string name="inviteFriendsPromoPopup_noThanks_button">No, thanks</string>
+
+    <string name="android_mapScreen_mapNotLoaded_text">The map has not been loaded yet. Check your internet connection.</string>
+
+    <string name="ios_mapScreen_noGpsPopupViewTitle_text">Turn on GPS!</string>
+    <string name="ios_mapScreen_noGpsPopupViewMessage_text">Skill requires GPS access to work correctly. \nPlease, enable GPS
+        services for Skill app on your device.
+    </string>
+    <string name="ios_mapScreen_noGpsPopupViewToSettings_button">To Settings</string>
+
+    <string name="trackedFriendsPanel_friendStatusOnline_text">online</string>
+    <string name="trackedFriendsPanel_friendStatusOffline_text">offline</string>
+    <string name="trackedFriendsPanel_cannotConnectToUdpServerError_text">You probably have poor internet connection, so we can\'t
+        connect with our server
+    </string>
+    <string name="trackedFriendsPanel_youDontHaveTrackedFriends_text">You don\'t have friends that \nyou track in the current
+        resort
+    </string>
+    <string name="trackedFriendsPanel_checkingResort_text">We are trying to detect a resort</string>
+    <string name="trackedFriendsPanel_internetConnectionUnreliable_text">Internet connection is not available or unreliable. When it restores your friends show up here</string>
+    <string name="trackedFriendsPanel_outsideResort_text"><![CDATA[<p>Tracking is not available <br /><a href="%s">outside a resort zone!</a></p>]]></string>
+    <string name="trackedFriendsPanel_accessToLocationIsOffOnDevice_text"><![CDATA[<p>We cannot track your friends!Please turn GPS on. <a href="skillapp://#gpsSettingsScreen">More info</a></p>]]></string>
+    <string name="trackedFriendsPanel_becomePro_button"><![CDATA[<a href="skillapp://#selectSubscriptionScreen">Become PRO</a> to track friends on the map]]></string>
+    <string name="android_trackedFriendsPanel_noLocationPermission_text"><![CDATA[Tracking is not available!</br>Give Skill permission to track your GPS location. <a href="skillapp://#gpsSettingsScreen">To Settings</a>]]></string>
+
+    <string name="common_activityTypeRide_text">ride</string>
+    <string name="common_activityTypeRest_text">rest</string>
+    <string name="common_activityTypeLift_text">lift</string>
+    <string name="common_activityTypeConfirmingLift_text">lift?</string>
+    <string name="common_activityTypeConfirmingRide_text">ride?</string>
+    <string name="common_activityTypeConfirmingRest_text">rest?</string>
+    <string name="common_poorGps_text">poor GPS</string>
+    <string name="common_km_text">%s km</string>
+    <string name="common_m_text">m</string>
+    <string name="common_done_button">Done</string>
+    <string name="common_ok_button">OK</string>
+    <string name="common_gotIt_button">Got it</string>
+
+    <string name="infoButton_outOfResort_text">out of resort</string>
+    <string name="infoButton_noGps_text">no GPS</string>
+
+    <string name="common_internetConnectionIsNotAvailableOrUnstableError_text">Internet connection is not available or very unstable, please try again later</string>
+
+    <string name="common_invalidWeightError_text">The weight is specified incorrectly</string>
+    <string name="common_invalidWeightRangeErrorKg_text">The weight must be in range from %s to %s kgs</string>
+    <string name="common_invalidWeightRangeErrorLbs_text">The weight must be in range from %s to %s lbs</string>
+
+    <string name="common_somethingWentWrongError_title">Error</string>
+    <string name="common_somethingWrongQuestion_text">Something\'s wrong?</string>
+
+    <string name="common_nicknameExistsError_text">This nickname is already taken by another user</string>
+    <string name="common_nicknameContainsManyHyphensError_text">Only one hyphen in a row is allowed</string>
+    <string name="common_nicknameStartsFromDotError_text">Nickname can\'t start with dot</string>
+    <string name="common_nicknameStartsFromDashError_text">Nickname can\'t start with hyphen</string>
+    <string name="common_nicknameEndsWithDotError_text">Dot at the end is not allowed</string>
+    <string name="common_nicknameContainsWrongSymbolError_text">Only numbers, Latin letters and symbols \"-\", \"_\", \".\" are allowed</string>
+    <string name="common_nicknameContainsDigitsOnlyError_text">Nickname can\'t contain only figures</string>
+    <string name="common_nicknameIsTooShortError_text">Nickname cannot be shorter than %d characters</string>
+    <string name="common_nicknameIsTooLongError_text">Nickname cannot be longer than %d characters</string>
+    <string name="common_nicknameIsEmptyError_text">Nickname can\'t be empty</string>
+    <string name="common_emailIsEmptyError_text">Email can\'t be empty</string>
+    <string name="common_emailExistsError_text">This email is already taken by another user</string>
+    <string name="common_invalidEmailError_text">Invalid email</string>
+    <string name="common_passwordIsTooShortError_text">Password cannot be shorter than %d characters</string>
+    <string name="common_passwordIsTooLongError_text">Password is too long</string>
+    <string name="common_passwordIsEmptyError_text">Password can\'t be empty</string>
+    <string name="common_alreadyFriendsError_text">%s is already your friend</string>
+    <string name="common_closedTripFallbackName_text">Trip</string>
+    <string name="common_unknownResort_text">Unknown resort</string>
+    <string name="common_search_placeholder">Search</string>
+    <string name="common_unknownPiste_title">Unknown piste</string>
+    <string name="common_archivedPiste_title">%s (archived)</string>
+    <string name="common_imageLoadingError_text">Couldn\'t load the image</string>
+
+    <string name="android_googlePlayNotFoundWarningDialog_title">Attention!</string>
+    <string name="android_googlePlayNotFoundWarningDialog_message">We couldn\'t find Google Play on your device, so Skill may not work properly.</string>
+    <string name="android_googlePlayNotFoundWarningDialog_ok_button">OK</string>
+    <string name="android_googlePlayNotFoundWarningDialog_dontShowAgain_switcherLabel">Don\'t show again</string>
+
+    <string name="store_shared_activeSection_title">Active</string>
+    <string name="store_shared_expiredSection_title">Expired</string>
+    <string name="store_shared_availableSection_title">Available</string>
+    <string name="store_shared_finishedSection_title">Finished</string>
+    <string name="store_shared_summingUpSection_title">Summing up the results</string>
+    <string name="store_shared_collectedSection_title">Collected</string>
+
+    <string name="store_shared_expiredStatus_title">Expired</string>
+    <string name="store_shared_activeStatus_title">Active</string>
+    <string name="store_shared_finishedStatus_title">Finished</string>
+    <string name="store_shared_raffledStatus_title">Raffled</string>
+    <string name="store_shared_collectedStatus_title">Collected</string>
+    <string name="store_shared_processingStatus_title">Processing</string>
+    <string name="store_shared_raffleStatus_title">Raffle</string>
+    <string name="store_shared_buyUntilStatus_title">Buy until</string>
+    <string name="store_shared_boughtCouponsByMeStatus_title">Bought by me</string>
+    <string name="store_shared_expiresStatus_title">Expires at</string>
+
+    <string name="couponOfferDetailsScreen_totalAvailableCoupons_text">Available</string>
+    <string name="couponOfferDetailsScreen_buy_button">Buy</string>
+    <string name="couponOfferDetailsScreen_noCouponsLeftError_text">Sorry, you already bought all available coupons</string>
+    <string name="couponOfferDetailsScreen_availableCoupons_text">%1$s from %2$s</string>
+    <string name="couponOfferDetailsScreen_allCouponsSoldError_text">Sorry, all coupons have been sold</string>
+    <string name="couponOfferDetailsScreen_store_button">Store</string>
+
+    <string name="couponOffersScreen_noAvailableCouponOffers_text">No available coupons</string>
+    <string name="couponOffersScreen_noExpiredCouponOffers_text">No expired coupons</string>
+
+    <string name="rafflesScreen_summingUpRaffles_text">Summing up the results</string>
+    <string name="rafflesScreen_noActiveRaffles_text">No active raffles</string>
+    <string name="rafflesScreen_noFinishedRaffles_text">No finished raffles</string>
+
+    <string name="storeScreen_title">Store</string>
+    <string name="storeScreen_couponOffers_button">Coupon</string>
+    <string name="storeScreen_raffles_button">Raffles</string>
+
+    <string name="closedStoreScreen_storeIsClosed_text">Store is closed!</string>
+    <string name="closedStoreScreen_storeIsClosedInYourRegion_text"><![CDATA[Sorry, store is not available <a href="skillapp://#storeNotAvailableInRegionScreen">in your region</a> for now]]></string>
+
+    <string name="storeNotAvailableInRegionPopup_text">Store is available in the following countries:\n\n    - Russia\n\nWe\'re actively working on supporting Store in other countries. Potential partners are welcome to submit a proposal to info@getfullstack.co</string>
+    <string name="storeNotAvailableInRegionPopup_title">Store is closed!</string>
+
+    <string name="raffleDetailsScreen_buy_button">Buy</string>
+    <string name="raffleDetailsScreen_winnersSection_title">Winners</string>
+    <string name="raffleDetailsScreen_noRafflesLeftError_text">Sorry, you already bought all available raffle tickets</string>
+    <string name="raffleDetailsScreen_boughtByMe_text">%s from %s</string>
+    <string name="raffleDetailsScreen_winnerSection_title">Winner</string>
+    <string name="raffleDetailsScreen_allRaffleTicketsSoldError_text">Sorry, all raffle tickets have been sold</string>
+
+    <string name="raffleTicketDetailsScreen_weWillPickWinnerUntil_text">Raffle</string>
+    <string name="raffleTicketDetailsScreen_boughtByMe_text">%s from %s</string>
+    <string name="raffleTicketDetailsScreen_ticketCode_text">Raffle ticket code:</string>
+    <string name="raffleTicketDetailsScreen_from_text">from</string>
+    <string name="raffleTicketDetailsScreen_result_text">Result</string>
+    <string name="raffleTicketDetailsScreen_winningTicket_text">Your ticket has won!</string>
+    <string name="raffleTicketDetailsScreen_notWinningTicket_text">Your ticket didn\'t win</string>
+
+    <string name="raffleTicketDetailsScreen_winningTicketPopup_title">Your ticket has won!</string>
+    <string name="raffleTicketDetailsScreen_winningTicketPopup_message">We will send you further details (date and method of receiving the prize) to %s within 3 days from the date of the draw</string>
+
+    <string name="buyStoreItemDialog_youBoughtAllAvailableStoreItemsError_text">Sorry, you already bought all coupons/raffle tickets available per user</string>
+    <string name="buyStoreItemDialog_noMoreStoreItemsAreAvailableError_text">Sorry, no more offers are available</string>
+    <string name="buyStoreItemDialog_notEnoughCoinsError_text">Not enough coins to buy the coupon/raffle ticket</string>
+    <string name="buyStoreItemDialog_cancel_button">Cancel</string>
+    <string name="buyStoreItemDialog_missingEmail_text">Please, provide your email so we can contact you if you win the raffle</string>
+    <string name="buyStoreItemDialog_missingEmail_hint">Email</string>
+    <string name="buyCouponDialog_success_text">Coupon purchased!</string>
+    <string name="buyCouponDialog_title">Coupon purchase</string>
+    <string name="buyCouponDialog_message">If you press OK, %1$d coin(s) will be deducted from you balance. Confirm?</string>
+    <string name="buyRaffleTicketDialog_success_text">Raffle ticket purchased!</string>
+    <string name="buyRaffleTicketDialog_title">Raffle ticket purchase</string>
+    <string name="buyRaffleTicketDialog_message">If you press OK, %1$d coin(s) will be deducted from you balance. Confirm?</string>
+
+    <string name="boughtItemsScreen_title">My purchases</string>
+    <string name="boughtItemsScreen_raffles_title">Raffles</string>
+    <string name="boughtItemsScreen_coupons_title">Coupons</string>
+
+    <string name="raffleTicketsScreen_noActiveItems_text">You haven\'t bought anything yet</string>
+    <string name="raffleTicketsScreen_processing_text">Results</string>
+
+    <string name="boughtCouponsScreen_noAvailableCoupons_text">You haven\'t bought anything yet</string>
+
+    <string name="boughtCouponCodeDialog_title">Coupon code</string>
+    <string name="boughtCouponCodeDialog_description_text">Show this code to receive the goods on the coupon.</string>
+    <string name="boughtCouponCodeDialog_done_button">Done</string>
+
+    <string name="boughtCouponScreen_showCode_button">Show code</string>
+
+    <string name="editProfileScreen_title">Edit profile</string>
+    <string name="editProfileScreen_nickname_inputLabel">Nickname</string>
+    <string name="editProfileScreen_email_inputLabel">Email</string>
+    <string name="editProfileScreen_weight_inputLabel">Weight</string>
+    <string name="editProfileScreen_weight_inputPlaceholder">not set</string>
+    <string name="editProfileScreen_cancel_button">Cancel</string>
+    <string name="editProfileScreen_done_button">Done</string>
+    <string name="editProfileScreen_changeAvatar_menuItem">Change avatar</string>
+    <string name="editProfileScreen_chooseAsAvatar_menuItem">Choose as avatar</string>
+    <string name="editProfileScreen_deletePhoto_menuItem">Delete photo</string>
+    <string name="editProfileScreen_email_inputPlaceholder">not set</string>
+
+    <string name="editEmailScreen_title">Email</string>
+
+    <string name="editNicknameScreen_title">Nickname</string>
+
+    <string name="editWeightScreen_title">Weight</string>
+    <string name="editWeightScreen_weight_inputPlaceholder">Provide your weigth</string>
+    <string name="editWeightScreen_description_text">Used to calculate calories</string>
+
+    <string name="ios_avatarPickerDialog_sourceTypeIsNotAvailable_text">The source is not available</string>
+    <string name="ios_avatarPickerDialog_imageLoadingError_text">Couldn\'t load the image, please try again</string>
+    <string name="avatarPickerDialog_fromOurCollection_menuItem">Pick avatar source please</string>
+    <string name="avatarPickerDialog_fromCamera_menuItem">Camera</string>
+    <string name="avatarPickerDialog_cancel_menuItem">Cancel</string>
+    <string name="avatarPickerDialog_fromPhoneGallery_menuItem">Photo</string>
+
+    <string name="tripsScreen_seasonTitle_text">Season %1$d/%2$d</string>
+    <string name="tripsScreen_tripDates_text">%1$s - %2$s</string>
+    <string name="tripsScreen_currentTripDate_text">%1$s - ...</string>
+    <string name="tripsScreen_currentTrip_title">Current trip</string>
+    <string name="tripsScreen_noTrips_text">No trips found</string>
+    <string name="tripsScreen_noSelfTrips_text">You haven\'t recorded any trips yet.</string>
+    <string name="tripsScreen_viewDemoTrips_button">View demo trips</string>
+
+    <string name="demoTripsScreen_exit_button">Exit</string>
+    <string name="demoTripsScreen_title">Demo mode</string>
+
+    <string name="tripDetailsScreen_statistics_title">Statistics</string>
+
+    <string name="tripDayItem_maxSpeed_title">max speed</string>
+    <string name="tripDayItem_distance_title">distance</string>
+    <string name="tripDayItem_trackCount_title">tracks</string>
+
+    <string name="tripStatisticsItem_distance_title">distance</string>
+    <string name="tripStatisticsItem_activeDays_title">active days</string>
+    <string name="tripStatisticsItem_activeDays_text">%1$d / %2$d</string>
+    <string name="tripStatisticsItem_trackCount_title">tracks</string>
+    <string name="tripStatisticsItem_coins_title">skill coins</string>
+    <string name="tripStatisticsItem_maxSpeed_title">max speed</string>
+    <string name="tripStatisticsItem_descentTime_title">track time</string>
+
+    <string name="trackEventItem_unknownPiste_title">Unknown piste</string>
+    <string name="trackEventItem_freeridePiste_title">Freeride</string>
+    <string name="trackEventItem_currentTrack_title">Current track</string>
+    <string name="trackEventItem_unfinishedTrack_title">Unfinished track</string>
+    <string name="trackEventItem_maxSpeed_title">max speed</string>
+    <string name="trackEventItem_descentTime_title">track time</string>
+    <string name="trackEventItem_filteredTrack_title">Filtered track</string>
+
+    <string name="restEventItem_title">Rest</string>
+    <string name="restEventItem_duration_title">rest time</string>
+
+    <string name="lackOfCoordinatesEventItem_title">No communication with GPS</string>
+    <string name="lackOfCoordinatesEventItem_duration">duration</string>
+
+    <string name="enterResortEventItem_title">Enter resort</string>
+
+    <string name="leftResortEventItem_title">Left resort</string>
+
+    <string name="liftEventItem_unfinishedLift_text">Unfinished lift</string>
+    <string name="liftEventItem_currentLift_text">Current lift</string>
+    <string name="liftEventItem_unknownLift_text">Unknown lift</string>
+    <string name="liftEventItem_distance_text">distance</string>
+    <string name="liftEventItem_avgSpeed_text">average speed</string>
+    <string name="liftEventItem_liftTime_text">lift time</string>
+
+    <string name="appClosedBySystemItem_message_text"><![CDATA[It seems that app was closed by operation system.\nPlease, make sure <a href="%s">the settings</a> are correct.]]></string>
+    <string name="appClosedBySystemItem_title">App closed by system</string>
+
+    <string name="appClosedByUserItem_title">App closed</string>
+
+    <string name="dayWillBeDeletedWarningItem_title">All events for the current session in this resort (%1$s) will disappear if you don\'t record any tracks</string>
+
+    <string name="dayEventsScreen_statisticsDistance_title">distance</string>
+    <string name="dayEventsScreen_statisticsMaxSpeed_title">max speed</string>
+    <string name="dayEventsScreen_statisticsTrackCount_title">tracks</string>
+    <string name="dayEventsScreen_statisticsSkillCoin_title">skill coin</string>
+    <string name="dayEventsScreen_statisticsOnMountainTime_title">on mountain</string>
+    <string name="dayEventsScreen_statisticsTrackDuration_title">track duration</string>
+    <string name="dayEventsScreen_statisticsTrackAltitudeDifference_title">altitude diff.</string>
+    <string name="dayEventsScreen_filteredTracks_switchLabel">Filtered tracks (%d)</string>
+    <string name="dayEventsScreen_statisticsTrackCalories_title">calories</string>
+    <string name="dayEventsScreen_statisticsTrackCalories_setupWeight_text">setup weight</string>
+    <string name="dayEventsScreen_statisticsTrackCalories_activatePro_text">activate PRO</string>
+    <string name="dayEventsScreen_statisticsTrackCalories_caloriesValue_text">%d kcal</string>
+
+    <string name="setupUserWeightDialog_title">Setup weight</string>
+    <string name="setupUserWeightDialog_message">Please provide your weight so we can calculate calories</string>
+    <string name="setupUserWeightDialog_inputPlaceholder">Enter the weight %s</string>
+
+    <string name="tripDayMapScreen_timeInterval_text">%1$s - %2$s</string>
+    <string name="tripDayMapScreen_itemPosition_text">(%1$d/%2$d)</string>
+    <string name="tripDayMapScreen_mapDataLoading_text">Loading</string>
+    <string name="tripDayMapScreen_mapDataLoadingError_text">Failed to load</string>
+    <string name="tripDayMapScreen_unknownLift_title">Unknown lift</string>
+    <string name="tripDayMapScreen_popupMenu_deleteEvent">Delete event</string>
+    <string name="tripDayMapScreen_somethingWrongWithTrack_menuItem">Something wrong with the track?</string>
+    <string name="tripDayMapScreen_deleteEvent_menuItem">Delete this event</string>
+    <string name="tripDayMapScreen_deleteTrack_menuItem">Delete track</string>
+    <string name="tripDayMapScreen_restoreTrack_menuItem">Restore track</string>
+    <string name="tripDayMapScreen_updating_text">Updating...</string>
+    <string name="tripDayMapScreen_eventsNotFound_text">There are no events that can be shown on the map for that day</string>
+    <string name="tripDayMapScreen_popupMenu_changeSport">Change sport</string>
+    <string name="tripDayMapScreen_emptyStatistics_placeholder">--</string>
+
+    <string name="changeTrackSportDialog_changeSport_title">Change sport</string>
+
+    <string name="reportTrackIssuePopup_wasNotAtrack_checkboxLabel">It wasn\'t a track</string>
+    <string name="reportTrackIssuePopup_liftIncludedInTrack_checkboxLabel">Lift included in track</string>
+    <string name="reportTrackIssuePopup_incorrectTrackStart_checkboxLabel">Incorrect track start</string>
+    <string name="reportTrackIssuePopup_incorrectTrackStartedEarly_radioLabel">Started early</string>
+    <string name="reportTrackIssuePopup_incorrectTrackStartedLate_radioLabel">Started late</string>
+    <string name="reportTrackIssuePopup_incorrectTrackFinish_checkboxLabel">Incorrect track finish</string>
+    <string name="reportTrackIssuePopup_incorrectTrackFinishedEarly_radioLabel">Finished early</string>
+    <string name="reportTrackIssuePopup_incorrectTrackFinishedLate_radioLabel">Finished late</string>
+    <string name="reportTrackIssuePopup_incorrectTrackParameter_checkboxLabel">Incorrect track parameters</string>
+    <string name="reportTrackIssuePopup_incorrectTrackParameterMaxSpeed_checkboxLabel">Max. speed</string>
+    <string name="reportTrackIssuePopup_incorrectTrackParameterAverageSpeed_checkboxLabel">Average speed</string>
+    <string name="reportTrackIssuePopup_incorrectTrackParameterPisteName_checkboxLabel">Piste name</string>
+    <string name="reportTrackIssuePopup_incorrectTrackParameterPisteDifficulty_checkboxLabel">Piste difficulty</string>
+    <string name="reportTrackIssuePopup_incorrectTrackParameterTrackTime_checkboxLabel">Track time</string>
+    <string name="reportTrackIssuePopup_incorrectTrackOtherDetails_checkboxLabel">Other</string>
+    <string name="reportTrackIssuePopup_poorGpsHappeningTooLong_checkboxLabel">Poor GPS is happening too long already</string>
+
+    <string name="reportInfoScreenIssuePopup_notSkiing_checkboxLabel">I\'m not skiing ATM</string>
+    <string name="reportInfoScreenIssuePopup_onLift_radioLabel">On a lift</string>
+    <string name="reportInfoScreenIssuePopup_resting_radioLabel">Having a rest</string>
+    <string name="reportInfoScreenIssuePopup_notInResort_radioLabel">Not in a resort</string>
+    <string name="reportInfoScreenIssuePopup_drivingCar_radioLabel">Driving a car</string>
+    <string name="reportInfoScreenIssuePopup_incorrectTrackParameter_checkboxLabel">Incorrect ride attributes</string>
+    <string name="reportInfoScreenIssuePopup_incorrectTrackParameterMaxSpeed_checkboxLabel">Max speed</string>
+    <string name="reportInfoScreenIssuePopup_incorrectTrackParameterAverageSpeed_checkboxLabel">Average speed</string>
+    <string name="reportInfoScreenIssuePopup_incorrectTrackParameterDistance_checkboxLabel">Distance</string>
+    <string name="reportInfoScreenIssuePopup_incorrectTrackParameterTimeOfStart_checkboxLabel">Time of start</string>
+    <string name="reportInfoScreenIssuePopup_incorrectTrackParameterTotalTime_checkboxLabel">Total time</string>
+    <string name="reportInfoScreenIssuePopup_iAmSkiing_radioLabel">Skiing</string>
+    <string name="reportInfoScreenIssuePopup_notLifting_checkboxLabel">I\'m not on a lift</string>
+    <string name="reportInfoScreenIssuePopup_incorrectLiftAttributes_checkboxLabel">Incorrect lift attributes</string>
+    <string name="reportInfoScreenIssuePopup_incorrectLiftName_checkboxLabel">Lift name</string>
+    <string name="reportInfoScreenIssuePopup_incorrectLiftTime_checkboxLabel">Lift time</string>
+    <string name="reportInfoScreenIssuePopup_incorrectTimeLeft_checkboxLabel">Time left</string>
+    <string name="reportInfoScreenIssuePopup_incorrectDistanceLeft_checkboxLabel">Distance left</string>
+    <string name="reportInfoScreenIssuePopup_inResort_checkboxLabel">I\'m in a resort</string>
+    <string name="reportInfoScreenIssuePopup_wasOnLift_radioLabel">Was on a lift</string>
+    <string name="reportInfoScreenIssuePopup_hadRest_radioLabel">Had a rest</string>
+    <string name="reportInfoScreenIssuePopup_wasntInResort_radioLabel">Wasn\'t in a resort</string>
+    <string name="reportInfoScreenIssuePopup_droveCar_radioLabel">Drove a car</string>
+    <string name="reportInfoScreenIssuePopup_incorrectTrackParameterPisteName_checkboxLabel">Piste name</string>
+    <string name="reportInfoScreenIssuePopup_incorrectTrackParameterPisteDifficulty_checkboxLabel">Piste difficulty</string>
+    <string name="reportInfoScreenIssuePopup_incorrectTrackParameterTimeOfFinish_checkboxLabel">Time of finish</string>
+    <string name="reportInfoScreenIssuePopup_incorrectTrackParameterAltitudeDiff_checkboxLabel">Altitude diff</string>
+    <string name="reportInfoScreenIssuePopup_iAmNotTakingRest_checkboxLabel">I\'m not taking a rest</string>
+    <string name="reportInfoScreenIssuePopup_poorGpsHappeningMoreThan2min_radioLabel">Longer than 2 mins</string>
+    <string name="reportInfoScreenIssuePopup_poorGpsHappeningMoreThan5min_radioLabel">Longer than 5 mins</string>
+    <string name="reportInfoScreenIssuePopup_poorGpsHappeningMoreThan10min_radioLabel">Longer than 10 mins</string>
+    <string name="reportInfoScreenIssuePopup_gpsInNotOff_checkboxLabel">GPS is not off</string>
+    <string name="reportInfoScreenIssuePopup_incorrectTrackParameters_checkboxLabel">Incorrect statistics</string>
+    <string name="reportInfoScreenIssuePopup_incorrectDayStatisticsTimeOfStart_checkboxLabel">Time of start</string>
+    <string name="reportInfoScreenIssuePopup_incorrectDayStatisticsTimeSpent_checkboxLabel">Total time spent</string>
+    <string name="reportInfoScreenIssuePopup_incorrectDayStatisticsSkiingTime_checkboxLabel">Total time of skiing</string>
+    <string name="reportInfoScreenIssuePopup_incorrectDayStatisticsNumberOfTracks_checkboxLabel">Number of tracks</string>
+    <string name="reportInfoScreenIssuePopup_incorrectDayStatisticsMaxSpeed_checkboxLabel">Max speed</string>
+    <string name="reportInfoScreenIssuePopup_incorrectDayStatisticsAverageSpeed_checkboxLabel">Average speed</string>
+    <string name="reportInfoScreenIssuePopup_incorrectDayStatisticsDistance_checkboxLabel">Distance</string>
+    <string name="reportInfoScreenIssuePopup_incorrectDayStatisticsDidNotSkiToday_checkboxLabel">Didn\'t ski today</string>
+
+    <string name="reportIssuePopup_report_button">Report issue</string>
+    <string name="reportIssuePopup_complain_button">Complain</string>
+    <string name="reportIssuePopup_reportProblem_text">Report the problem</string>
+    <string name="reportIssuePopup_describeProblem_inputPlaceholder">Describe the problem</string>
+
+    <string name="trackEventMapItem_distance_text">DISTANCE\n(%s)</string>
+    <string name="trackEventMapItem_trackTime_text">TRACK TIME\n(%s)</string>
+    <string name="trackEventMapItem_altitudeDifference_text">ALTITUDE DIFFERENCE\n(%s)</string>
+    <string name="trackEventMapItem_maxSpeed_text">MAX SPEED\n(%s)</string>
+    <string name="trackEventMapItem_averageSpeed_text">AVG. SPEED\n(%s)</string>
+    <string name="trackEventMapItem_skillcoin_text">SKILLCOIN</string>
+    <string name="trackEventMapItem_unknownPiste_title">Unknown piste</string>
+    <string name="trackEventMapItem_freeridePiste_title">Freeride</string>
+    <string name="trackEventMapItem_filteredTrack_title">Filtered track</string>
+    <string name="trackEventMapItem_trackSegments_title">MATCHED PISTES</string>
+
+    <string name="daySummaryMapItem_maxSpeed_text">MAX SPEED\n(%s)</string>
+    <string name="daySummaryMapItem_distance_text">DISTANCE\n(%s)</string>
+    <string name="daySummaryMapItem_trackCount_text">TRACK COUNT</string>
+    <string name="daySummaryMapItem_onMountainTime_text">ON MOUNTAIN\n(%s)</string>
+    <string name="daySummaryMapItem_trackTime_text">TRACK TIME\n(%s)</string>
+    <string name="daySummaryMapItem_skillcoin_text">SKILLCOIN</string>
+
+    <string name="liftEventMapItem_distance_text">DISTANCE\n(%s)</string>
+    <string name="liftEventMapItem_averageSpeed_text">AVG. SPEED\n(%s)</string>
+    <string name="liftEventMapItem_duration_text">LIFT DURATION\n(%s)</string>
+
+    <string name="resortEnteredEventMapItem_title">Resort enter</string>
+    <string name="resortEnteredEventMapItem_pisteLength_text">PISTE LENGTH\n(%s)</string>
+    <string name="resortEnteredEventMapItem_liftCount_text">LIFTS</string>
+    <string name="resortEnteredEventMapItem_heightDifference_text">ELEVATION DIFF\n(%s.a.s.l)</string>
+
+    <string name="resortLeftEventMapItem_title">Resort left</string>
+    <string name="resortLeftEventMapItem_trackCount_text">TRACK COUNT</string>
+    <string name="resortLeftEventMapItem_trackTime_text">TRACK TIME\n(%s)</string>
+    <string name="resortLeftEventMapItem_distance_text">DISTANCE\n(%s)</string>
+
+    <string name="restEventMapItem_title">Rest</string>
+    <string name="restEventMapItem_duration_text">REST TIME\n(%s)</string>
+    <string name="restEventMapItem_height_text">ALTITUDE DIFF\n(%s)</string>
+    <string name="restEventMapItem_distance_text">DISTANCE\n(%s)</string>
+
+    <string name="trackSegmentsScreen_mapDataLoading_text">Loading</string>
+    <string name="trackSegmentsScreen_mapDataLoadingError_text">Failed to load</string>
+    <string name="trackSegmentsScreen_bestTimePlaceholder_text">--</string>
+    <string name="trackSegmentsScreen_globalRankPlaceholder_text">--</string>
+
+    <string name="trackSegmentsScreen_trackSegmentItem_bestResultSection_title">YOUR RESULTS</string>
+    <string name="trackSegmentsScreen_trackSegmentItem_bestResultSection_value_text">Your best result is %s</string>
+    <string name="trackSegmentsScreen_trackSegmentItem_globalRankSection_title">LOOK WHO HAS OVERTAKEN YOU</string>
+    <string name="trackSegmentsScreen_trackSegmentItem_globalRankSection_allTimeValue_text">You are %s in the overall ranking</string>
+    <string name="trackSegmentsScreen_trackSegmentItem_globalRankSection_allTimeValueForSport_text">You are %s in the overall ranking on</string>
+    <string name="trackSegmentsScreen_trackSegmentItem_globalRankSection_currentMonthValue_text">You are %s in the ranking for %s</string>
+    <string name="trackSegmentsScreen_trackSegmentItem_globalRankSection_currentMonthValueForSport_text">You are %s in the ranking for %s on</string>
+    <string name="trackSegmentsScreen_trackSegmentItem_distance_text">DISTANCE\n(%s)</string>
+    <string name="trackSegmentsScreen_trackSegmentItem_trackTime_text">TRACK TIME\n(%s)</string>
+    <string name="trackSegmentsScreen_trackSegmentItem_altitudeDifference_text">ALTITUDE DIFFERENCE\n(%s)</string>
+    <string name="trackSegmentsScreen_trackSegmentItem_maxSpeed_text">MAX SPEED\n(%s)</string>
+    <string name="trackSegmentsScreen_trackSegmentItem_averageSpeed_text">AVG. SPEED\n(%s)</string>
+    <string name="trackSegmentsScreen_trackSegmentItem_rank_text">RESULT\nOF (%d)</string>
+
+    <string name="pisteDurationHistoryScreen_yourResults_title">Your results</string>
+    <string name="pisteDurationHistoryScreen_bestTime_text">Best time</string>
+    <string name="pisteDurationHistoryScreen_noItems_text">You don\'t have tracks on this piste yet</string>
+    <string name="pisteDurationHistoryScreen_units_text">MIN:SEC</string>
+
+    <string name="mainScreen_map_tabBarItemText">map</string>
+    <string name="mainScreen_tracks_tabBarItemText">tracks</string>
+    <string name="mainScreen_friends_tabBarItemText">friends</string>
+    <string name="mainScreen_profile_tabBarItemText">profile</string>
+
+    <string name="setupSportForOldUsersScreen_title">Now you can choose a sport in Skill</string>
+    <string name="setupSportForOldUsersScreen_canChangeSportLater_hint">You can change your sport later</string>
+    <string name="setupSportForOldUsersScreen_next_button">Next</string>
+
+    <string name="chooseSportForOldTracksScreen_title">What sport should be applied to the recorded tracks?</string>
+    <string name="chooseSportForOldTracksScreen_canChangeSportLater_hint">Later, you can change the sport for a specific track</string>
+
+    <string name="myProfileScreen_title">Profile</string>
+    <string name="myProfileScreen_store_menuItem">Store</string>
+    <string name="myProfileScreen_rating_menuItem">Rating</string>
+    <string name="myProfileScreen_editProfile_menuItem">Edit profile</string>
+    <string name="myProfileScreen_loginOrRegister_menuItem">Login/Register</string>
+    <string name="myProfileScreen_aboutApp_menuItem">About app</string>
+    <string name="myProfileScreen_settings_menuItem">Settings</string>
+    <string name="myProfileScreen_subscriptionActiveUntil_text">Your subscription is active until %s</string>
+    <string name="myProfileScreen_currentProStatus_text">Current PRO status</string>
+    <string name="myProfileScreen_becomePro_button">Become PRO</string>
+    <string name="myProfileScreen_proSubscriptionBanner_friendsTrackingListItem_text">track your friends on the map</string>
+    <string name="myProfileScreen_proSubscriptionBanner_resortRatingsListItem_text">resort rating</string>
+    <string name="myProfileScreen_proSubscriptionBanner_pisteRatingsListItem_text">piste ratings</string>
+    <string name="myProfileScreen_proSubscriptionBanner_pisteRatingsListItemMountainBike_text">trail ratings</string>
+    <string name="myProfileScreen_proSubscriptionBanner_overallStatisticsListItem_text">overall statistics</string>
+    <string name="myProfileScreen_proSubscriptionBanner_title">Subscription PRO</string>
+    <string name="myProfileScreen_inviteFriends_menuItem">Invite friends</string>
+
+    <string name="overallStatisticsScreen_title">Overall Statistics</string>
+    <string name="overallStatisticsScreen_activeDays_text">Active Days</string>
+    <string name="overallStatisticsScreen_trackCount_text">Tracks</string>
+    <string name="overallStatisticsScreen_distance_text">Distance</string>
+    <string name="overallStatisticsScreen_maxSpeed_text">Max Speed</string>
+    <string name="overallStatisticsScreen_totalResorts_text">Visited resorts (number of visits):</string>
+    <string name="overallStatisticsScreen_sportFilter_text">Statistics by sport:</string>
+    <string name="overallStatisticsScreen_sportFilterDialog_message">Statistics will be shown for the selected sport(s)</string>
+    <string name="overallStatisticsScreen_statisticsNotCalculatedWarning_text">Statistics is not calculated yet. Please come back later.</string>
+
+    <string name="countriesScreen_title">Countries</string>
+    <string name="countriesScreen_resortGroup_title">Resorts</string>
+    <string name="resortsScreen_title">Resorts</string>
+    <string name="resortsScreen_nearbyResorts_title">Nearest resorts</string>
+    <string name="resortsScreen_unknownResorts_title">Unknown resorts</string>
+    <string name="resortsScreen_otherResorts_title">Resorts</string>
+    <string name="resortsScreen_unknownResorts_itemTitle">Unknown resort</string>
+    <string name="resortsScreen_noResortsFound_text">No resorts were found</string>
+    <string name="countriesScreen_noCountriesFound_text">No countries were found</string>
+    <string name="resortsScreen_search_placeholder">Search</string>
+    <string name="resortsScreen_lifts_title">lifts</string>
+    <string name="resortsScreen_pistes_title">pistes</string>
+    <string name="resortsScreen_distanceAway_text">%s away</string>
+
+    <string name="resortDetailsScreen_hasFacility_text">there is</string>
+    <string name="resortDetailsScreen_doesntHaveFacility_text">no</string>
+    <string name="resortDetailsScreen_monthPeriodStart_text">beg. of</string>
+    <string name="resortDetailsScreen_monthPeriodMiddle_text">mid of</string>
+    <string name="resortDetailsScreen_monthPeriodEnd_text">end of</string>
+    <string name="resortDetailsScreen_distanceAway_text">%s away</string>
+    <string name="resortDetailsScreen_slopesDistance_title">PISTES (%s)</string>
+    <string name="resortDetailsScreen_aboutResort_title">ABOUT RESORT</string>
+    <string name="resortDetailsScreen_areas_title">AREAS</string>
+    <string name="resortDetailsScreen_liftCount_text">LIFTS (%d)</string>
+    <string name="resortDetailsScreen_info_title">INFO</string>
+    <string name="resortDetailsScreen_elevationDifference_title">Elevation Difference</string>
+    <string name="resortDetailsScreen_season_title">Season</string>
+    <string name="resortDetailsScreen_skiPassPrice_title">Ski Pass Price</string>
+    <string name="resortDetailsScreen_bikePassPrice_title">Bike Pass Price</string>
+    <string name="resortDetailsScreen_map_title">Resort Map</string>
+    <string name="resortDetailsScreen_workingHours_title">Working Hours</string>
+    <string name="resortDetailsScreen_nightTime_title">Night Time</string>
+    <string name="resortDetailsScreen_snowPark_title">Snow Park</string>
+    <string name="resortDetailsScreen_website_title">Resort Website</string>
+    <string name="resortDetailsScreen_workingHours_text">%s:%s - %s:%s</string>
+    <string name="resortDetailsScreen_season_text">%s - %s</string>
+    <string name="resortDetailsScreen_skiPassPrice_text">%s %s/day</string>
+    <string name="resortDetailsScreen_openWebsite_button">Open</string>
+    <string name="resortDetailsScreen_openMap_button">Open</string>
+    <string name="resortDetailsScreen_details_button">Details</string>
+    <string name="resortDetailsScreen_galleryImageNumber_text">%d/%d</string>
+
+    <string name="resortDescriptionScreen_title">Description</string>
+
+    <string name="friendsScreen_friends_title">Friends</string>
+    <string name="friendsScreen_friendsInResort_title">Friends in resort</string>
+    <string name="friendsScreen_incomingFriendRequests_title">Incoming friend requests</string>
+    <string name="friendsScreen_outgoingFriendRequests_title">Outgoing friend requests</string>
+    <string name="friendsScreen_globalSearch_title">Global search</string>
+    <string name="friendsScreen_userHasNoFriends_text">User has no friends</string>
+    <string name="friendsScreen_userHasNoFriendsWithThatName_text">User has no friends with that name</string>
+    <string name="friendsScreen_youHaveNoFriendsYet_text">You have no friends yet</string>
+    <string name="friendsScreen_noUsersWithThatNickname_text">No users with that nickname</string>
+    <string name="friendsScreen_search_placeholder">Search</string>
+    <string name="friendsScreen_acceptFriendRequest_button">Accept</string>
+    <string name="friendsScreen_declineFriendRequest_button">Decline</string>
+    <string name="friendsScreen_track_switcherLabel">tracking</string>
+    <string name="friendsScreen_cancelFriendRequest_button">Cancel request</string>
+    <string name="friendsScreen_becomeFriends_button">Become friends</string>
+    <string name="friendsScreen_inviteFriends_button">Invite friends</string>
+    <string name="friendsScreen_inviteFriendsFlatPromo_title">Invite friends to Skill</string>
+    <string name="friendsScreen_inviteFriendsFlatPromo_description"><![CDATA[Send an invite to your friends to unlock the full <a href="%s">potential</a> of Skill!]]></string>
+    <string name="friendsScreen_inviteFriendsFlatPromo_inviteFriends_button">Invite friends</string>
+    <string name="friendsScreen_inviteFriendsFlatPromo_findFriends_button">Find friends through search</string>
+
+    <string name="canTrackFriendInResortOnly_title">Please note</string>
+    <string name="canTrackFriendInResortOnly_text">You can track a friend when both of you are in the same resort</string>
+
+    <string name="loginScreen_invalidCredentialsError_text">Email/nickname or password is invalid. Please try again or use Forgot Password option.</string>
+    <string name="loginScreen_error_text">Error</string>
+    <string name="loginScreen_invalidCredentialsError_button">OK</string>
+    <string name="loginScreen_emailOrNickname_inputPlaceholder">Email/Nickname</string>
+    <string name="loginScreen_password_inputPlaceholder">Password</string>
+    <string name="loginScreen_signIn_button">Sign in</string>
+    <string name="loginScreen_forgotPassword_text"><![CDATA[Forgot password? <a href="skillapp://#requestPasswordResetScreen">Tap here</a>]]></string>
+    <string name="loginScreen_register_text"><![CDATA[Don\'t have an account? <a href="skillapp://#registrationScreen">Register</a>]]></string>
+    <string name="loginScreen_or_text">or</string>
+    <string name="loginScreen_userIsRegisteredWithAnotherAuthProvider_text">You already registered in Skill via %1$s, tap %1$s icon to enter.</string>
+    <string name="loginScreen_userIsRegisteredWithLoginPassword_text">You already registered in Skill as %1$s. To enter use %1$s as a nickname and provide your password.</string>
+
+    <string name="android_loginScreen_externalRegistrationRequiredPopup_title">Unable to find registered account</string>
+    <string name="android_loginScreen_externalRegistrationRequiredPopup_text">There is no registered %s account. In order to log in, you need to register your account in Skill. Continue registration?</string>
+    <string name="android_loginScreen_externalRegistrationRequiredPopup_positiveButton">OK</string>
+    <string name="android_loginScreen_externalRegistrationRequiredPopup_negativeButton">Cancel</string>
+
+    <string name="ios_loginScreen_forgotPassword_text">Forgot password?</string>
+    <string name="ios_loginScreen_register_text">Don\'t have an account?</string>
+    <string name="ios_loginScreen_forgotPassword_link">Tap here</string>
+    <string name="ios_loginScreen_register_link">Register</string>
+
+    <string name="dayInfoScreen_today_title">Today</string>
+    <string name="dayInfoScreen_distance_text">distance</string>
+    <string name="dayInfoScreen_descentTime_text">track time</string>
+    <string name="dayInfoScreen_maxSpeed_text">max speed</string>
+    <string name="dayInfoScreen_avgSpeed_text">average speed</string>
+    <string name="dayInfoScreen_descentsCount_text">track count</string>
+
+    <string name="tracksStatistics_distance_text">distance</string>
+    <string name="tracksStatistics_descentsCount_text">track count</string>
+    <string name="tracksStatistics_avgSpeed_text">average speed</string>
+
+    <string name="lastTrackInfoScreen_distance_text">distance</string>
+    <string name="lastTrackInfoScreen_descentTime_text">track time</string>
+    <string name="lastTrackInfoScreen_altitudeDifference_text">altitude diff</string>
+    <string name="lastTrackInfoScreen_maxSpeed_text">max speed</string>
+    <string name="lastTrackInfoScreen_avgSpeed_text">average speed</string>
+    <string name="lastTrackInfoScreen_skillCoin_text">skill coin</string>
+
+    <string name="lastTrackInfoScreen_title">Last track</string>
+
+    <string name="common_greeting_text">Hello!</string>
+
+    <string name="rideInfoScreen_title">Current track</string>
+    <string name="rideInfoScreen_trackStartedAt_text">start %1$s</string>
+    <string name="rideInfoScreen_stopTrackRecording_text">Looks like you\'ve stopped.\nWant to finish the track now?</string>
+    <string name="rideInfoScreen_distanceRun_text">distance</string>
+    <string name="rideInfoScreen_descentTime_text">track time</string>
+    <string name="rideInfoScreen_maxSpeed_text">max speed</string>
+    <string name="rideInfoScreen_avgSpeed_text">average speed</string>
+
+    <string name="tracksScreen_today_tabBarItemText">Today</string>
+    <string name="tracksScreen_recentDay_tabBarItemText">Recent day</string>
+    <string name="tracksScreen_trip_tabBarItemText">Trip</string>
+    <string name="tracksScreen_season_tabBarItemText">Season</string>
+    <string name="tracksScreen_statistics_tabBarItemText">Statistics</string>
+    <string name="tracksScreen_tripsCount_text">Trips:</string>
+    <string name="tracksScreen_activeDayCount_text">Active days:</string>
+    <string name="tracksScreen_onMountainTime_text">On mountain:</string>
+    <string name="tracksScreen_startedAt_text">Started at: %s (%s)</string>
+    <string name="tracksScreen_activeTrip_title">Active trip</string>
+    <string name="tracksScreen_activeDays_text">active days</string>
+    <string name="tracksScreen_distance_text">distance</string>
+    <string name="tracksScreen_tracksCount_text">tracks</string>
+    <string name="tracksScreen_activity_text">activity</string>
+    <string name="tracksScreen_firstRideStartedAt_text">on mountain since</string>
+    <string name="tracksScreen_maxSpeed_text">max speed</string>
+    <string name="tracksScreen_tracks_tabBarItemText">Tracks</string>
+    <string name="tracksScreen_days_tabBarItemText">Days</string>
+    <string name="tracksScreen_trips_tabBarItemText">Trips</string>
+    <string name="tracksScreen_unknownPiste_title">Unknown piste</string>
+    <string name="tracksScreen_freeridePiste_title">Freeride</string>
+    <string name="tracksScreen_noTracksFound_text">No tracks found</string>
+    <string name="tracksScreen_noDaysFound_text">No days found</string>
+    <string name="tracksScreen_noTripsFound_text">No trips found</string>
+    <string name="tracksScreen_cannotDeleteTrackWhileSyncing_text">Sorry, we can\\'t delete the track now because Skill is synchronizing data with the server. Please try again in a few minutes.</string>
+
+    <string name="outOfResortInfoScreen_outOfResort_text"><![CDATA[<p>You\'re out of a <a href="%s">resort zone</a> right now.\nHope to see you on slopes soon!</p>]]></string>
+
+    <string name="insideResortInfoScreen_youHaveNotRideToday_text">You didn\'t ski today.\nHope to see you on slopes soon!</string>
+    <string name="restInfoScreen_happyToSeeYouOnMountain_text">Happy to see you on a mountain! Skill detects activity automatically, you don\'t need to press any button!</string>
+    <string name="restInfoScreen_pleasantApresSki_text">Wish you a pleasant Apres-ski!</string>
+    <string name="restInfoScreen_hurryUp_text">Still not on a mountain?\nHurry up!</string>
+    <string name="restInfoScreen_youHaveTimeToRide_text">You still have a time to take several rides today!\nHurry up!</string>
+
+    <string name="liftInfoScreen_title">Lift</string>
+    <string name="liftInfoScreen_approximatelyLiftTime_text">lift time:</string>
+    <string name="liftInfoScreen_remainingLiftTime_text">time left:</string>
+    <string name="liftInfoScreen_skillRecordsActivityAutomatically_text">As soon as you start a ride Skill will record your activity automatically!</string>
+
+    <string name="poorGpsInfoScreen_title">Poor GPS!</string>
+    <string name="poorGpsInfoScreen_description">ATM Skill is receiving GPS locations with poor accuracy. It should be fine soon.\nThe following may help:\n1. Start moving\n2. Go outside</string>
+    <string name="poorGpsInfoScreen_currentAccuracy_text">current coordinate accuracy</string>
+    <string name="poorGpsInfoScreen_requiredAccuracy_text">required coordinate accuracy</string>
+
+    <string name="confirmingLiftInfoScreen_title">Lift?</string>
+    <string name="confirmingLiftInfoScreen_determiningLift_text">Identifying lift…</string>
+
+    <string name="noGpsInfoScreen_title">GPS location is not available.</string>
+    <string name="noGpsInfoScreen_enableGps_text">Please enable GPS on the device.</string>
+    <string name="noGpsInfoScreen_toSettings_button">To settings</string>
+
+    <string name="chooseRegistrationMethodScreen_register_button">Register</string>
+    <string name="chooseRegistrationMethodScreen_enterAsGuest_button">Skip</string>
+    <string name="chooseRegistrationMethodScreen_operationRequiresRegistration_title">Please register!</string>
+    <string name="chooseRegistrationMethodScreen_operationRequiresRegistration_text">Please register to perform this operation</string>
+
+    <string name="enterAsGuestScreen_title">Without registration you can\'t:</string>
+    <string name="enterAsGuestScreen_trackFriendsFeature_title">Track friends</string>
+    <string name="enterAsGuestScreen_ratingFeature_title">Participate in ratings</string>
+    <string name="enterAsGuestScreen_detectPistesFeature_title">Detect pistes</string>
+    <string name="enterAsGuestScreen_storeFeature_title">Use store</string>
+    <string name="enterAsGuestScreen_chatFeature_title">Use chat</string>
+    <string name="enterAsGuestScreen_backToRegistration_button">Back to registration</string>
+    <string name="enterAsGuestScreen_enterAsGuest_button">Skip</string>
+
+    <string name="chooseGuestSportScreen_title">Choose your sport:</string>
+    <string name="chooseGuestSportScreen_canChangeSportLater_hint">You can change your sport later</string>
+
+    <string name="chooseSportScreen_title">Choose your sport:</string>
+    <string name="chooseSportScreen_canChangeSportLater_hint">You can change your sport later</string>
+
+    <string name="registrationScreen_confirmLicenseTermsAndPrivacyPolicy_checkboxLabel"><![CDATA[<span>I confirm that I have read and agree to the <a href="%s">License Terms</a> and <a href="%s">Privacy Policy</a>.</span>]]></string>
+    <string name="registrationScreen_title">Registration</string>
+    <string name="registrationScreen_nickname_inputPlaceholder">Nickname</string>
+    <string name="registrationScreen_email_inputPlaceholder">Email</string>
+    <string name="registrationScreen_password_inputPlaceholder">Password</string>
+    <string name="registrationScreen_register_button">Register</string>
+    <string name="registrationScreen_goToLoginPage_text"><![CDATA[Already have an account? <a href="skillapp://#loginScreen">Tap here to sign in</a>]]></string>
+
+    <string name="externalRegistrationScreen_externalProviderUserIdPairAlreadyExistsError_text">You have already registered via %s, please go to the login screen and tap %1$s button to sing in</string>
+    <string name="externalRegistrationScreen_registerViaFacebook_text">Register via Facebook</string>
+    <string name="externalRegistrationScreen_registerViaGoogle_text">Register via Google</string>
+    <string name="externalRegistrationScreen_registerViaVk_text">Register via VK</string>
+
+    <string name="ratings_timeScopedUserRanksView_missedRank_text">•••</string>
+    <string name="ratings_timeScopedUserRanksView_whyIDontSeeMyselfPrivacySettings_button">Privacy settings</string>
+    <string name="ratings_timeScopedUserRanksView_whyIDontSeeMyselfAnonymousRegister_button">Register</string>
+    <string name="ratings_timeScopedUserRanksView_missedSelfRankReason_privateProfile_text">You don\'t see yourself in rating because your profile data is accessible by friends only.</string>
+    <string name="ratings_timeScopedUserRanksView_missedFriendRankReason_privateProfile_text">Your friend\'s profile is private for this rating, so the rank is not available</string>
+    <string name="ratings_timeScopedUserRanksView_missedSelfRankReason_undefined_text">We couldn\'t calculate your rank. Most probably you don\'t have tracks, or your tracks are not accounted in the rating yet</string>
+    <string name="ratings_timeScopedUserRanksView_missedFriendRankReason_undefined_text">We couldn\'t calculate your friend\'s rank. Most probably your friend\'s tracks are not accounted in the rating yet</string>
+    <string name="ratings_timeScopedUserRanksView_missedSelfRankReason_noTracks_text">You don\'t have tracks for the selected time period</string>
+    <string name="ratings_timeScopedUserRanksView_missedSelfRankReason_anonymous_text">You\'re in an anonymous mode. Please register to see your rank</string>
+    <string name="ratings_timeScopedUserRanksView_allTimeScope_tabTitle">All time</string>
+    <string name="ratings_timeScopedUserRanksView_todayScope_tabTitle">Today</string>
+    <string name="ratings_timeScopedUserRanksView_emptyTimeScope_text">No results found for this period</string>
+    <string name="ratings_timeScopedUserRanksView_rankValue_text">%s %s</string>
+    <string name="ratings_timeScopedUserRanksView_total_text">Total: %s</string>
+    <string name="ratings_timeScopedUserRanksView_winterSportFilter_text">Rating by sport:</string>
+    <string name="ratings_winterSportFilterDialog_message">Rating will be shown for the selected sport(s)</string>
+
+    <string name="sportFilterDialog_title">Choose sport(s)</string>
+
+    <string name="ratings_selectRatingScreen_title">Rating</string>
+    <string name="ratings_selectRatingScreen_friends_text">Friends</string>
+    <string name="ratings_selectRatingScreen_resort_text">Resort</string>
+    <string name="ratings_selectRatingScreen_global_text">Global</string>
+
+    <string name="ratings_globalRatingsScreen_title">Global</string>
+
+    <string name="ratings_resortRatingsScreen_pistes_tabTitle">Pistes</string>
+
+    <string name="ratings_friendRatingsScreen_title">Friends</string>
+    <string name="ratings_friendRatingsScreen_hasNoFriends_text">You have no friends yet</string>
+    <string name="ratings_friendRatingsScreen_hasNoFriends_addFriendsButton">Add friends</string>
+
+    <string name="ratings_mountainPatrolPopup_title">Warning!</string>
+    <string name="ratings_mountainPatrolPopup_confirm_button">ОК</string>
+    <string name="ratings_mountainPatrolPopup_text">Max speeds greater than %s are moderated by Mountain Patrol. \n\nMax speed is
+        provided by GPS sensor. Due to various reasons (for instance bad weather conditions) GPS may provide incorrect max speed
+        values. Mountain Patrol validates that you could achieve such high speed indeed. The validation may take up to 10 days.
+    </string>
+
+    <string name="ratings_selectPisteRatingsScreen_noPistesFound_text">We don\'t have any pistes for this resort!</string>
+    <string name="ratings_selectPisteRatingsScreen_requestPistes_button">Please, add pistes!</string>
+
+    <string name="ratings_shared_requestPistesResultDialog_message">The request to add pistes has been sent. Thanks!</string>
+    <string name="ratings_shared_maxSpeed_tabTitle">Max. speed</string>
+    <string name="ratings_shared_distance_tabTitle">Distance</string>
+
+    <string name="requiresProSubscriptionView_title">PRO subscription</string>
+    <string name="requiresProSubscriptionView_trackFriends_text">Track friends</string>
+    <string name="requiresProSubscriptionView_globalRating_text">Global rating</string>
+    <string name="requiresProSubscriptionView_resortRating_text">Resort rating</string>
+    <string name="requiresProSubscriptionView_becomePro_button">Become PRO</string>
+
+    <string name="common_back_button">Back</string>
+    <string name="common_cancel_button">Cancel</string>
+    <string name="common_close_button">Close</string>
+
+    <string name="privacySettingsScreen_title">Privacy settings</string>
+    <string name="privacySettingsScreen_public_menuItem">Public</string>
+    <string name="privacySettingsScreen_friendsOnly_menuItem">Friends only</string>
+    <string name="privacySettingsScreen_youProfileAccessibleByOther_text">Your profile (statistics, trips, friends) is accessible by other Skill users.</string>
+    <string name="privacySettingsScreen_youProfileAccessibleOnlyByFriends_text">Your profile (statistics, trips) will be accessible by friends only. Also you can\'t participate in global and resort ratings.</string>
+
+    <string name="settingsScreen_settings_title">Settings</string>
+    <string name="settingsScreen_feedback_menuItem">Feedback</string>
+    <string name="settingsScreen_tutorial_menuItem">Tutorial</string>
+    <string name="settingsScreen_privacySettings_menuItem">Privacy settings</string>
+    <string name="settingsScreen_measurementSystem_menuItem">Units</string>
+    <string name="settingsScreen_pushNotificationSendPreferences_menuItem">Notification settings</string>
+    <string name="settingsScreen_selectTheme_menuItem">Select theme</string>
+    <string name="settingsScreen_logout_menuItem">Log out</string>
+    <string name="settingsScreen_deleteAccount_menuItem">Delete account</string>
+    <string name="settingsScreen_support_sectionTitle">Support</string>
+    <string name="settingsScreen_account_sectionTitle">Account Management</string>
+    <string name="ios_settingsScreen_back_button">Back</string>
+    <string name="settingsScreen_contactTelegram_menuItem">Telegram</string>
+    <string name="settingsScreen_contactWhatsApp_menuItem">WhatsApp</string>
+    <string name="settingsScreen_faq_menuItem">FAQ</string>
+    <string name="settingsScreen_usageGuide_menuItem">Usage Guide</string>
+    <string name="settingsScreen_devMode_sectionTitle">Developer Mode</string>
+    <string name="settingsScreen_devMode_removeSubscription_menuItem">Remove subscription</string>
+    <string name="settingsScreen_devMode_coordinatesFaker_switcherLabel">Fake locations</string>
+    <string name="settingsScreen_devMode_replayPath_menuItem">Simulate Path</string>
+
+    <string name="replayPathScreen_submit_button">Simulate Path</string>
+    <string name="replayPathScreen_emptyStringError_text">String can\'t be empty</string>
+    <string name="replayPathScreen_DeserializationError_text">Deserialization error. Check your input data.</string>
+
+	<string name="pushNotificationSendPreferencesScreen_toolbar_title">Notification settings</string>
+	<string name="pushNotificationSendPreferencesScreen_sendStorePromo_text">Send notifications about new coupons/products in Store</string>
+
+    <string name="deleteAccountScreen_title">Delete account</string>
+    <string name="deleteAccountScreen_sendRequestToRemoveAccount_text">%s: send request to remove your account?</string>
+    <string name="deleteAccountScreen_deleteAccount_button">Delete account</string>
+    <string name="deleteAccountScreen_description_text">After the request is completed your account in Skill will be deactivated and can\'t be restored. All records about your activities, rates and other data will be deleted.\n\nYou can get the request status via the URL that will be provided after you confirm the action.</string>
+    <string name="deleteAccountScreen_warning_text">This procedure is irreversible.</string>
+    <string name="deleteAccountScreen_сonfirmationPopup_title">Are you sure?</string>
+    <string name="deleteAccountScreen_сonfirmationPopup_message">Your account and data will be deleted.</string>
+    <string name="deleteAccountScreen_сonfirmationPopup_cancel_button">Cancel</string>
+    <string name="deleteAccountScreen_сonfirmationPopup_agree_button">Agree</string>
+    <string name="deleteAccountScreen_requestSentPopup_title">The request has been sent</string>
+    <string name="deleteAccountScreen_requestSentPopup_message">%s\n\nPlease copy the link! You can use the link to observe the status of the account deletion</string>
+    <string name="deleteAccountScreen_requestSentPopup_button">Copy the link</string>
+    <string name="deleteAccountScreen_copiedHint_text">Copied</string>
+
+    <string name="changeTrackSportDialog_title">Select sport</string>
+    <string name="changeTrackSportDialog_ski_menuItem">Ski</string>
+    <string name="changeTrackSportDialog_snowboard_menuItem">Snowboard</string>
+    <string name="changeTrackSportDialog_mountainBike_menuItem">Mountain Bike</string>
+    <string name="changeTrackSportDialog_done_button">Done</string>
+
+    <string name="userProfileScreen_coins_text">Skill coins</string>
+    <string name="userProfileScreen_descentsCount_text">tracks</string>
+    <string name="userProfileScreen_friendsCount_text">friends</string>
+    <string name="userProfileScreen_itsPrivateProfile_text">It\'s a private profile. Only friends can access it.</string>
+    <string name="userProfileScreen_tracking_switcherLabel">Tracking</string>
+    <string name="userProfileScreen_sendFriendRequest_button">Become friends</string>
+    <string name="userProfileScreen_cancelOutgoingFriendRequest_button">Cancel friend request</string>
+    <string name="userProfileScreen_acceptIncomingRequest_button">Accept friend request</string>
+    <string name="userProfileScreen_declineIncomingRequest_button">Decline friend request</string>
+    <string name="userProfileScreen_deleteFriend_menuItem">Remove from Friends</string>
+    <string name="userProfileScreen_complain_menuItem">Сomplain</string>
+    <string name="ios_userProfileScreen_cancel_menuItem">Cancel</string>
+    <string name="userProfileScreenIssuePopup_offensiveProfileImage_checkboxLabel">Offensive photo</string>
+    <string name="userProfileScreenIssuePopup_offensiveNickname_checkboxLabel">Inappropriate nickname</string>
+    <string name="userProfileScreenIssuePopup_otherDetails_checkboxLabel">Other</string>
+
+    <string name="common_generic4xxApiError_text">Opps, error occurred on the client</string>
+    <string name="common_generic5xxApiError_text">Opps, error occurred on the server</string>
+    <string name="common_internetConnectionIsLost_text">Opps, internet connection is lost</string>
+    <string name="common_somethingWentWrongError_text">Something went wrong, please try again</string>
+    <string name="common_ourServerIsBusy_text">Our servers are busy at the moment. Please try later.</string>
+    <string name="common_wrongFileTypeIsSelected_text">Wrong file format is selected.</string>
+    <string name="common_unableToDecodeImage_text">Failed to load the image. It may be wrong file format or the image is broken.</string>
+
+    <string name="tutorialScreen_continue_button">CONTINUE</string>
+    <string name="tutorialScreen_finish_button">LET\'S RIDE!</string>
+    <string name="tutorialScreen_writeTracks_title">Record tracks</string>
+    <string name="tutorialScreen_rating_title">Compete with others</string>
+    <string name="tutorialScreen_trackFriends_title">Track friends</string>
+    <string name="tutorialScreen_notifications_title">Notifications</string>
+    <string name="tutorialScreen_appleWatchSupport_title">Support Apple Watch</string>
+    <string name="tutorialScreen_friendsinresort_title">Friends in resort</string>
+
+    <string name="flatHttpErrorView_retry_button">Try again</string>
+    <string name="flatHttpErrorView_billingServiceUnavailableError_text">The billing service is unavailable. Probably it\'s because you do not have Google Play or you are not signed in Google account.</string>
+
+    <string name="notSynchronizedUserDataPopup_youHaveUnsynchronizedData_title">You have unsynchronized data for user %s</string>
+    <string name="notSynchronizedUserDataPopup_youHaveUnsynchronizedData_text">To synchronize it you have to sign in to %s account again. Skill will sync the data as soon as the internet connection is reliable. \nSign in OR clear the unsynchronized data?</string>
+    <string name="notSynchronizedUserDataPopup_signIn_button">Sign in</string>
+    <string name="notSynchronizedUserDataPopup_clear_button">Clear</string>
+
+    <string name="notSynchronizedAnonymousUserDataPopup_title">You recorded tracks as anonymous user</string>
+    <string name="notSynchronizedAnonymousUserDataPopup_text">Delete or combine it with %s tracks?</string>
+    <string name="notSynchronizedAnonymousUserDataPopup_combine_button">Combine</string>
+    <string name="notSynchronizedAnonymousUserDataPopup_delete_button">Delete</string>
+
+    <string name="common_units_meters">m</string>
+    <string name="common_units_miles">mi</string>
+    <string name="common_units_foots">ft</string>
+    <string name="common_units_kilometers">km</string>
+    <string name="common_units_kilometersPerHour">km/h</string>
+    <string name="common_units_milesPerHour">mph</string>
+    <string name="common_units_seconds">sec</string>
+    <string name="common_units_minutes">min</string>
+    <string name="common_units_days">d</string>
+    <string name="common_units_hours">h</string>
+    <string name="common_units_kg">kg</string>
+    <string name="common_units_lbs">lbs</string>
+
+    <string name="feedbackScreen_feedback_title">Feedback</string>
+    <string name="feedbackScreen_sendFeedback_button">Send feedback</string>
+    <string name="feedbackScreen_succeededPopup_title">Thank you!</string>
+    <string name="feedbackScreen_succeededPopup_text">Your feedback has been sent.</string>
+    <string name="feedbackScreen_email_inputDescription">Please give us your email so we can contact you.</string>
+    <string name="feedbackScreen_email_inputPlaceholder">Email</string>
+    <string name="feedbackScreen_feedback_inputDescription">Happy to hear any feedback, be it positive or negative!</string>
+    <string name="feedbackScreen_feedback_inputPlaceholder">Feedback</string>
+    <string name="feedbackScreen_support_text">If you need any help, fell free to write us</string>
+
+    <string name="forceUpdatePopup_updateApp_title">Update application!</string>
+    <string name="forceUpdatePopup_updateApp_text">Sorry, current app version is no longer supported.\nPlease update the app.</string>
+    <string name="forceUpdatePopup_updateApp_button">Update</string>
+
+    <string name="editTripScreen_title">Edit trip</string>
+    <string name="editTripScreen_changePreviewImage_button">Change cover</string>
+    <string name="editTripScreen_editTripPhoto_title">Edit trip photos</string>
+    <string name="editTripScreen_addTripPhoto_title">Add trip photos</string>
+    <string name="editTripScreen_tripName_title">Trip name</string>
+    <string name="editTripScreen_closeTripAutomatically_title">Close trip automatically</string>
+    <string name="editTripScreen_closeTrip_button">Close trip</string>
+    <string name="editTripScreen_cantCloseTripWithoutTracks_text">You can\'t close a trip without tracks</string>
+    <string name="editTripScreen_closeTripConfirmationPopup_text">Are you sure you want to close the current trip?</string>
+    <string name="editTripScreen_closeTripConfirmationPopup_title">Confirmation</string>
+    <string name="editTripScreen_deleteTrip_menuItem">Delete trip</string>
+    <string name="editTripScreen_deleteTripConfirmationPopup_title">Deleting the trip</string>
+    <string name="editTripScreen_deleteTripConfirmationPopup_text">If you delete the trip we can\'t restore it later. Please confirm that you want to proceed?</string>
+    <string name="editTripScreen_deleteTripConfirmationPopup_delete_button">Delete</string>
+    <string name="editTripScreen_cannotDeleteActiveTripPopup_message">Sorry, active trip can\'t be deleted while you\'re in a resort</string>
+
+    <string name="closeTripConfirmationPopup_text">Are you sure you want to close the current trip?</string>
+    <string name="closeTripConfirmationPopup_title">Confirmation</string>
+    <string name="closeTripConfirmationPopup_close_button">Close</string>
+    <string name="closeTripConfirmationPopup_cancel_button">Cancel</string>
+
+    <string name="deleteEventConfirmationPopup_deleteEvent_title">Delete event</string>
+    <string name="deleteEventConfirmationPopup_deleteEvent_text">Do you really want to delete this event?</string>
+    <string name="deleteEventConfirmationPopup_deleteTrack_title">Delete track</string>
+    <string name="deleteEventConfirmationPopup_deleteTrack_text">Do you really want to delete this track?</string>
+    <string name="deleteEventConfirmationPopup_confirm_button">Delete</string>
+
+    <string name="galleryScreen_imageNumber_text">%d/%d</string>
+
+    <string name="addTripPhotosScreen_title">Trip photos</string>
+
+    <string name="selectPreviewImageScreen_title">Select cover</string>
+    <string name="selectPreviewImageScreen_camera_title">Camera</string>
+    <string name="selectPreviewImageScreen_phoneLibrary_title">Phone library</string>
+    <string name="selectPreviewImageScreen_skillPlaceholders_title">Skill placeholders</string>
+    <string name="selectPreviewImageScreen_tripPhotos_title">Trip photos</string>
+    <string name="selectPreviewImageScreen_resortPhotos_title">Resort photos</string>
+
+    <string name="android_imagePickerDialog_title">Photo</string>
+
+    <string name="ios_imagePickerDialog_photoLibrary_button">Photo library</string>
+    <string name="ios_imagePickerDialog_camera_button">Camera</string>
+    <string name="ios_imagePickerDialog_cancel_button">Cancel</string>
+    <string name="retryImageUploadDialog_cancel_button">Cancel</string>
+    <string name="retryImageUploadDialog_retry_button">Retry</string>
+    <string name="ios_selectImagesDialog_done_button">Done</string>
+
+    <string name="ios_retryImageDownloadDialog_failedToDownload_text">Failed to download photo from iCloud</string>
+    <string name="retryImageUploadDialog_failedToUpload_text">Failed to upload photo</string>
+
+    <string name="requestPasswordResetScreen_resetPassword_title">Reset password</string>
+    <string name="requestPasswordResetScreen_emailNickname_inputPlaceholder">Email/Nickname</string>
+    <string name="requestPasswordResetScreen_resetPassword_button">Reset password</string>
+    <string name="requestPasswordResetScreen_registeredViaExternalProviderError_text">It seems you registered via %1$s. Please try sign in with %1$s</string>
+    <string name="requestPasswordResetScreen_unknownUserError_text">User with such email/nickname doesn\'t exist.</string>
+    <string name="requestPasswordResetScreen_succeededPopup_title">Password reset</string>
+    <string name="requestPasswordResetScreen_succeededPopup_text">Success! You should get an email with instructions how to restore access to the account.</string>
+    <string name="requestPasswordResetScreen_problemsWithReset_text">Do you have problems with password reset?</string>
+    <string name="requestPasswordResetScreen_telegram_button">Telegram</string>
+    <string name="requestPasswordResetScreen_whatsApp_button">WhatsApp</string>
+
+    <string name="setNewPasswordScreen_resetPassword_title">Reset password</string>
+    <string name="setNewPasswordScreen_newPassword_inputPlaceholder">Password</string>
+    <string name="setNewPasswordScreen_repeatPassword_inputPlaceholder">Repeat password</string>
+    <string name="setNewPasswordScreen_resetPassword_button">Set new password</string>
+    <string name="setNewPasswordScreen_cancel_button">Cancel</string>
+    <string name="setNewPasswordScreen_resetPasswordSucceeded_title">Password reset</string>
+    <string name="setNewPasswordScreen_resetPasswordSucceeded_text">Password has been reset successfully.</string>
+    <string name="setNewPasswordScreen_resetTokenExpiredError_text">Restore password URL is expired</string>
+    <string name="setNewPasswordScreen_enteredPasswordsDoNotMatch_text">Entered passwords don\'t match</string>
+    <string name="setNewPasswordScreen_invalidResetPasswordLink_text">Reset password link is invalid, it misses some required parameters.</string>
+
+    <string name="app_cantHandleLinkPopup_text">Skill doesn\'t know how to handle %s. Please ensure that the link is correct.</string>
+    <string name="app_mustLogoutToResetPassword_text">To reset the password you must logout</string>
+
+    <string name="trackingHints_toSettings_button">To settings</string>
+
+    <string name="android_noGpsInfoScreen_requestPermission_button">Allow to use GPS</string>
+    <string name="android_noGpsInfoScreen_toSettings_link"><u>To settings</u></string>
+    <string name="android_noGpsInfoScreen_requestPermission_link"><u>Allow to use GPS</u></string>
+    <string name="android_noGpsInfoScreen_giveGpsPermission_text">Please give Skill permission to track your GPS location.</string>
+
+    <string name="trackingHintsPopup_features_title">No need to hit start!</string>
+    <string name="trackingHintsPopup_features_subtitle"><![CDATA[Open the app in a resort &amp;<br>Skill will <b>automatically:</b>]]></string>
+    <string name="trackingHintsPopup_features_mediumSecondPart_subtitle">automatically:</string>
+    <string name="trackingHintsPopup_featureRecordsTracks_text">Record tracks</string>
+    <string name="trackingHintsPopup_featureDetectLift_text">Detect lift ride</string>
+    <string name="trackingHintsPopup_featureDetectRest_text">Detect breaks</string>
+    <string name="trackingHintsPopup_dontShowAgain_switcherLabel">Don\'t show again</string>
+
+    <string name="infoButton_powerSaveMode_text">Eco mode</string>
+    <string name="powerSaveModeInfoScreen_title_text">Power-saving mode</string>
+    <string name="powerSaveModeInfoScreen_subtitle_text">Power-saving mode is active. GPS is disabled in this mode, so Skill can\'t record your activity.</string>
+
+    <string name="powerSaveModeDialog_title">Power mode</string>
+
+    <string name="powerSaveModeDialog_message">Power-saving mode is active. GPS is disabled in this mode, so Skill can\'t record your activity.</string>
+
+    <string name="android_cantOpenUrlDialog_title">Error</string>
+    <string name="android_cantOpenUrlDialog_message">Sorry, we didn\'t find an app to open this URL. Download/enable the browser or open the URL in some other way yourself.</string>
+    <string name="android_cantOpenUrlDialog_copyUrl_button">Copy URL</string>
+    <string name="android_cantOpenUrlDialog_urlCopiedSuccessfully_button">Copied</string>
+
+    <string name="selectSubscriptionScreen_featuresAvailableWithPro_title">PRO features</string>
+    <string name="selectSubscriptionScreen_tryProStatus_title"><![CDATA[Try <b>PRO status</b>]]></string>
+    <string name="selectSubscriptionScreen_noActiveSubscription_text">We couldn\'t detect any active subscription for your profile. Please contact our support if you think it\'s wrong.</string>
+    <string name="selectSubscriptionScreen_restored_text">Your Pro status has been restored until %@!</string>
+    <string name="selectSubscriptionScreen_profitLabel_text">SAVE %s%%</string>
+    <string name="selectSubscriptionScreen_perYear_text">per year</string>
+    <string name="selectSubscriptionScreen_pricePerYear_text">%s per year</string>
+    <string name="selectSubscriptionScreen_day_text">1 DAY</string>
+    <string name="selectSubscriptionScreen_week_text">1 WEEK</string>
+    <string name="selectSubscriptionScreen_month_text">1 MONTH</string>
+    <string name="selectSubscriptionScreen_year_title">UNLIMITED PLAN</string>
+    <string name="selectSubscriptionScreen_oneWeekFreeTrial_text">3 days free trial</string>
+    <string name="selectSubscriptionScreen_weekDescription_text">Perfect if you make 1-2 trips a season</string>
+    <string name="selectSubscriptionScreen_dayDescription_text">For occasional skiers</string>
+    <string name="selectSubscriptionScreen_yearNotSubscriptionDescription_text">If you are in love in mountains</string>
+    <string name="selectSubscriptionScreen_bestValue_text">BEST VALUE</string>
+    <string name="selectSubscriptionScreen_restorePurchases_button">Restore purchases</string>
+    <string name="ios_selectSubscriptionScreen_receiptVerificationFailed_text">We couldn\'t verify your purchase in AppStore, so your subscription active until %s. We will try again soon!</string>
+    <string name="selectSubscriptionScreen_proFeatureGallery_friendsTracking_title">Tracking friends</string>
+    <string name="selectSubscriptionScreen_proFeatureGallery_resortRating_title">Resort Rating</string>
+    <string name="selectSubscriptionScreen_proFeatureGallery_resortRating_text">Check your place in the resort rating and globally among all Skill users</string>
+    <string name="selectSubscriptionScreen_proFeatureGallery_pisteRatings_title">Piste Ratings</string>
+    <string name="selectSubscriptionScreen_proFeatureGallery_pisteRatings_text">Check your place in the rating on your favorite piste</string>
+    <string name="selectSubscriptionScreen_proFeatureGallery_pisteRatingsMountainBike_title">Trail Ratings</string>
+    <string name="selectSubscriptionScreen_proFeatureGallery_pisteRatingsMountainBike_text">Check your place in the rating on your favorite trail</string>
+    <string name="selectSubscriptionScreen_proFeatureGallery_calories_title">Calories</string>
+    <string name="selectSubscriptionScreen_proFeatureGallery_calories_text">Curious how much calories have you burned riding all day?</string>
+    <string name="selectSubscriptionScreen_proFeatureGallery_friendsTracking_text">Track your friends on the resort map and check theirs activity status **</string>
+    <string name="selectSubscriptionScreen_proFeatureGallery_overallStatistics_title">Overall Statistics</string>
+    <string name="selectSubscriptionScreen_proFeatureGallery_overallStatistics_text">Statistics for your trips for a season and overall.</string>
+    <string name="selectSubscriptionScreen_privacyPolicy_button">Privacy policy</string>
+    <string name="selectSubscriptionScreen_purchaseTerms_text">Payment will be charged to iTunes Account at confirmation of purchase. Subscription automatically renews unless canceled at least 24-hours before the end of the current period. Account will be charged for renewal within 24-hours prior to the end of the current period, at the same price. You can manage your subscription in Account Settings.</string>
+    <string name="selectSubscriptionScreen_licenseTerms_button">License Terms</string>
+    <string name="selectSubscriptionScreen_purchaseTerms_button">Subscription terms</string>
+    <string name="selectSubscriptionScreen_details_button">Details</string>
+    <string name="selectSubscriptionScreen_activate_button">Activate</string>
+    <string name="selectSubscriptionScreen_startFreeTrialAndSubscribe_button">Start Free Trial and Subscribe</string>
+    <string name="selectSubscriptionScreen_oneTimeOnly_text">(one time only)</string>
+    <string name="selectSubscriptionScreen_subscription_text">(subscription)</string>
+    <string name="selectSubscriptionScreen_autoRenewing_text">Recurring payment. Cancellation is possible at any time.</string>
+    <string name="selectSubscriptionScreen_paymentProblems_text"><![CDATA[<a href="%s">Problems with payment?</a>]]></string>
+    <string name="android_selectSubscriptionScreen_purchaseVerificationFailed_text">Sorry, we couldn\'t confirm the payment. Please contact support (Profile - Settings) if you believe it\'s a mistake.</string>
+
+    <string name="selectSubscriptionScreen_friendsTrackingFeatureHintsDialog_title">Tracking friends</string>
+    <string name="selectSubscriptionScreen_friendsTrackingFeatureHintsDialog_availableOnlyInResort_text"><![CDATA[- Available in a <a href="%s">resort zone</a> only;]]></string>
+    <string name="selectSubscriptionScreen_friendsTrackingFeatureHintsDialog_availableWithNonProFriends_text">- You can track friends even if they don\'t have PRO version.</string>
+
+    <string name="stylishSubscriptionPromoDialog_title"><![CDATA[Try <b>PRO status</b>]]></string>
+    <string name="stylishSubscriptionPromoDialog_hook_text">Get maximum</string>
+    <string name="stylishSubscriptionPromoDialog_oneWeekFreeTrial_text">3 days free trial</string>
+    <string name="stylishSubscriptionPromoDialog_selectSubscription_button">View</string>
+    <string name="stylishSubscriptionPromoDialog_keepFreeVersion_button">Stay on the free version</string>
+
+    <string name="enablePushNotificationPermissionScreen_title">Enable notifications</string>
+    <string name="enablePushNotificationPermissionScreen_awareOfNewMessages_text">To be notified of new chat messages.</string>
+    <string name="enablePushNotificationPermissionScreen_enable_button">Enable</string>
+    <string name="enablePushNotificationPermissionScreen_notificationSettingsPath_text">Notifications -> Allow Notifications</string>
+    <string name="enablePushNotificationPermissionScreen_dontShowAgain_text">Don\'t show again</string>
+
+    <string name="becomeProPopup_proSubscription_title">PRO subscription</string>
+    <string name="becomeProPopup_proSubscriptionDescription_title">Track your friends in a resort</string>
+    <string name="becomeProPopup_becomePro_button">Become PRO</string>
+
+    <string name="selectResortCountryScreen_title">Choose a country</string>
+    <string name="selectResortCountryScreen_noCountriesFound_text">No countries were found</string>
+
+    <string name="selectResortScreen_noResortsFound_text">No resorts were found</string>
+    <string name="selectResortScreen_nearbyResorts_title">Nearest resorts</string>
+    <string name="selectResortScreen_unknownResorts_title">Unknown resorts</string>
+    <string name="selectResortScreen_otherResorts_title">Resorts</string>
+
+    <string name="android_allowBackgroundWorkDialog_title">Warning!</string>
+    <string name="android_allowBackgroundWorkDialog_ok_button">OK</string>
+    <string name="android_allowBackgroundWorkDialog_message"><![CDATA[We noticed, that Skill doesn\'t work well in the background (when device screen is off) on your device. Please make sure that you allowed Skill to work in the background. <a href="%s">Open the instruction</a>]]></string>
+
+    <string name="measurementSystemScreen_toolbar_title">Units</string>
+    <string name="measurementSystemScreen_metricSystem_item">Metric system</string>
+    <string name="measurementSystemScreen_britishSystem_item">Imperial system</string>
+    <string name="measurementSystemScreen_restartPopup_message">For the changes to take the effect, please restart the application.</string>
+
+    <string name="android_allowBackgroundWorkPopup_title">Attention!</string>
+    <string name="android_allowBackgroundWorkPopup_subtitle">Skill needs your help to work correctly:</string>
+    <string name="android_allowBackgroundWorkPopup_huaweiFirstStep_text">1. In settings turn the toggle off</string>
+    <string name="android_allowBackgroundWorkPopup_huaweiSecondStep_text">2. In popup window ensure all toggles are on</string>
+    <string name="android_allowBackgroundWorkPopup_xiaomiFirstStep_text">1. Choose Skill in settings </string>
+    <string name="android_allowBackgroundWorkPopup_xiaomiSecondStep_text">2. Choose \"Background Settings\" in the popup window</string>
+    <string name="android_allowBackgroundWorkPopup_xiaomiThirdStep_text">3. Then choose \"No restrictions\"</string>
+    <string name="android_allowBackgroundWorkPopup_cannotOpenSettingsScreenError_text">Sorry, we couldn\'t open the screen to configure background work settings on your device. Please try to find background work settings yourself, otherwise there is a chance that Skill will be unstable in background or won\'t work at all.</string>
+
+    <string name="android_notificationPanel_trackingActivity_text">Tracking activity</string>
+    <string name="android_notificationPanel_friendRequests_text">Friend requests</string>
+    <string name="android_notificationPanel_other_text">Other Notifications</string>
+    <string name="android_notificationPanel_promo_text">Promo Notifications</string>
+    <string name="android_notificationPanel_trackingLocationInResort_text">Tracking activity</string>
+    <string name="android_notificationPanel_trackingLocationOutsideResort_text">Tracking resort</string>
+    <string name="android_notificationPanel_chatNotificationChannelName_text">Chat: %s</string>
+    <string name="android_notificationPanel_chatUserName_text">You</string>
+
+    <string name="sendFriendRequestByUserPublicIdDialog_invalidInvitationLinkError_text">Invalid link</string>
+    <string name="sendFriendRequestByUserPublicIdDialog_yes_button">Yes</string>
+    <string name="sendFriendRequestByUserPublicIdDialog_no_button">No</string>
+    <string name="sendFriendRequestByUserPublicIdDialog_friendRequest_title">Friend request</string>
+    <string name="sendFriendRequestByUserPublicIdDialog_invitation_text">Send friend request?</string>
+    <string name="sendFriendRequestByUserPublicIdDialog_friendRequestSent_text">Friend request has been sent to user %s</string>
+    <string name="sendFriendRequestByUserPublicIdDialog_friendRequestMessage_text">Join me in Skill! You can record runs, track your friends activity online on the resort map, compete on various ratings, and much more. %s</string>
+
+    <string name="chatScreen_participantStatus_unknown_text">unknown</string>
+    <string name="chatScreen_participantStatus_online_text">online</string>
+    <string name="chatScreen_participantStatus_offline_text">offline</string>
+    <string name="chatScreen_participantStatus_lastSeenAt_text">last seen %s at %s</string>
+    <string name="chatScreen_participantStatus_lastSeenTimeAgo_text">last seen %s ago</string>
+    <string name="chatScreen_participantStatus_lastSeenJustNow_text">last seen just now</string>
+    <string name="chatScreen_participantStatus_typing_text">typing...</string>
+    <string name="chatScreen_messageContextMenu_edit_text">Edit</string>
+    <string name="chatScreen_messageContextMenu_delete_text">Delete</string>
+    <string name="chatScreen_messageContextMenu_copy_text">Copy</string>
+    <string name="chatScreen_messageContextMenu_reply_text">Reply</string>
+    <string name="chatScreen_messageContextMenu_copied_text">Copied</string>
+    <string name="chatScreen_noMessagesFound_text">There are no messages yet</string>
+    <string name="chatScreen_inputBar_editMessage_title">Edit message</string>
+    <string name="chatScreen_inputBar_inputPlaceholder">Write a message...</string>
+    <string name="chatScreen_messageEdited_text">edited</string>
+    <string name="chatScreen_citedMessageDeleted_text">Message deleted</string>
+    <string name="chatScreen_unreadMessages_text">Unread messages</string>
+    <string name="chatScreen_waitingForNetwork_text">waiting for network...</string>
+    <string name="chatScreen_today_text">Today</string>
+    <string name="chatScreen_deleteMessagePopup_title">Delete message</string>
+    <string name="chatScreen_deleteMessagePopup_text">Are you sure you want to delete this message?</string>
+    <string name="chatScreen_deleteMessagePopup_confirm_button">Delete</string>
+
+    <string name="selectThemeScreen_toolbar_title">Theme</string>
+    <string name="selectThemeScreen_dependsOnSeasonThemeItem_title">Depends on season</string>
+    <string name="selectThemeScreen_winterThemeItem_title">Winter</string>
+    <string name="selectThemeScreen_summerThemeItem_title">Summer</string>
+    <string name="ios_selectThemeScreen_themeSavedDialog_message">The theme has been saved! Please restart the application to see the changes</string>
+</resources>

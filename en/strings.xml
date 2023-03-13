@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <resources>
     <string name="android_application_name">Skill</string>
+    <string name="android_application_second_name">Ultra Skill</string>
 
     <string name="android_facebook_app_id">1916407391709530</string>
     <string name="android_facebook_client_token">a79ddb639313cb0830d1d953ad33bf1e</string>
